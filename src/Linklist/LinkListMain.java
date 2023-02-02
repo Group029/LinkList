@@ -70,7 +70,8 @@ public class LinkListMain {
 			case 8:{
 				System.out.println("Enter postion :- ");
 				int pos = sc.nextInt();
-				System.out.println("Element deleted :- ");
+			
+				System.out.println("Element deleted :- "+list.deletByPosition(pos));
 				break;
 			}
 			case 9 :{
@@ -79,23 +80,23 @@ public class LinkListMain {
 				break;
 			}
 			case 10:{
-				System.out.println("Total nodes :- ");
+				System.out.println("Total nodes :- "+list.countNode());
 				break;
 			}
 			case 11:{
-				System.out.println("Middle reference :- ");
+				System.out.println("Middle reference :- "+list.middleNodeRef());
 				break;
 			}
 			case 12 :{
-				System.out.println("Middle Node Data :- ");
+				System.out.println("Middle Node Data :- "+list.middleNodeData());
 				break;
 			}
 			case 13:{
-				System.out.println("Alternate value :- ");
+				System.out.println("Alternate value :- "+list.displayAlterNode());
 				break;
 			}
 			case 14:{
-				System.out.println("Delete alternate value :- ");
+				System.out.println("Delete alternate value :- "+list.deleteAlterNode());
 				break;
 			}
 			case 15 :{
